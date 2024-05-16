@@ -1,1 +1,1 @@
-plotily ==5.8.0
+plotily ==5.22.0

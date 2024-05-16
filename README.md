@@ -17,6 +17,7 @@ estados = list(df['state'].unique())
 # Criando um seletor de estado na barra lateral da aplicação
 state = st.sidebar.selectbox('Qual estado? ', estados)
 
+
 # Definindo as opções para seleção de coluna
 colunas = ['Novos óbitos', 'Novos casos', 'Óbitos por 100 mil habitantes', 'Casos por 100 mil habitantes']
 
